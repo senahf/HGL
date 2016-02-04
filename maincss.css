@@ -1,0 +1,176 @@
+body.primary {
+	font-family: 'Montserrat', sans-serif;
+	margin:0;
+	padding:0;
+}
+/* nav bar */
+div.navbar {
+	margin:0;
+	padding:0;
+	position: fixed;
+	background:white;
+	width:100%;
+}
+div.navleft {
+	float:left;
+}
+#navhgl {
+	font-size:26px;
+	font-weight: bold;
+	color:#ff8d1a;
+	margin:0;
+	padding-top: 10px;
+	padding-left:30px;
+}
+div.navright {
+	float:right;
+}
+ul.mainnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    padding-right:10px;
+}
+li.navlink {
+	float:left;
+}
+
+.navlink a {
+	font-size:16px;
+	padding:20px;
+	color:#808080;
+	display:block;
+	text-decoration:none;
+}
+
+li.navlinkpage {
+	float:left;
+	display:inline-block;
+}
+.navlinkpage a {
+	font-size:16px;
+	padding:20px;
+	color:#ff8d1a;
+	display:block;
+	text-decoration:none;
+}
+div.navdropdown {
+	float:left;
+}
+div.navdropdowncontent {
+    display: none;
+    position: absolute;
+    min-width: 150px;
+    top:100%;
+    background-color: white;
+}
+
+.navdropdown:hover .navdropdowncontent {
+	display:block;
+}
+.navdropdown:hover .navlink {
+	color:#ff8d1a;
+}
+div.navitem {
+	float:left;
+}
+.navitem:hover .navlink {
+	color:#ff8d1a;
+}
+li.ddnavlink {
+	display:block;
+	padding:10px;
+}
+
+.ddnavlink a {
+	padding:10px;
+	color:#808080;
+	font-size:15px;
+	text-decoration:none;
+}
+/* banner */
+
+div.banner {
+	width:100%;
+	min-width:1000px;
+	height:560px;
+	background-position: center;
+	text-align:center;
+}
+div.bannertext {
+	text-align: center;
+	padding-top:150px;
+	width:70%;
+	margin-left:auto;
+	margin-right:auto;
+}
+p.bannermaintext {
+	color:white;
+	font-size:80px;
+	text-decoration: underline;
+	padding:0;
+	margin:0;
+	min-width:500px;
+}
+p.bannersubtext {
+	color:white;
+	font-size:30px;
+	padding:0;
+	margin:0;
+	margin-top:30px;
+}
+
+button.bannerbutton {
+	color:#ff8d1a;
+	background-color:white;
+	font-size:16px;
+	border-radius:6px;
+	padding:18px;
+	padding-right:30px;
+	padding-left:30px;
+	border:none;
+	margin-top:30px;
+	font-family: 'Montserrat', sans-serif;
+}
+.bannerbutton:focus {
+	outline:none;
+}
+
+div.bannerbuttonwrap{
+	display:inline-block;
+}
+
+.bannerbuttonwrap:hover .bannerbutton {
+	color:white;
+	background-color:transparent;
+	border-color:white;
+	border-width:2px;
+	border-style:solid;
+}
+
+/* content */
+div.maincontent {
+	text-align:center;
+	width:75%;
+	margin-left:auto;
+	margin-right:auto;
+}
+.maincontent h1 {
+	color: #ff8d1a;
+	text-decoration: underline;
+	font-size:50px;
+
+}
+div.socmedout {
+	text-align:center;
+}
+div.socmedwrap {
+	display:inline-block;
+	margin-left:auto;
+	margin-right:auto;
+}
+a.socmed{
+	float:left;
+	margin:10px;
+}
