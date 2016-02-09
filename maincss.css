@@ -132,6 +132,8 @@ button.bannerbutton {
 	border:none;
 	margin-top:30px;
 	font-family: 'Montserrat', sans-serif;
+	cursor:pointer;
+	cursor:hand;
 }
 .bannerbutton:focus {
 	outline:none;
@@ -173,4 +175,22 @@ div.socmedwrap {
 a.socmed{
 	float:left;
 	margin:10px;
+}
+.maincontent h2 {
+	text-decoration: underline;
+	font-size:30px;
+	margin-bottom:15px;
+}
+.maincontent p {
+	font-size:25px;
+	padding:0;
+	margin:0;
+}
+a.biglink1 {
+	font-size:25px;
+	color:#ff8d1a;
+}
+a.intextlink {
+	color:#ff8d1a;
+	text-decoration:none;
 }
