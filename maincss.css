@@ -69,13 +69,13 @@ div.navdropdowncontent {
 .navdropdown:hover .navdropdowncontent {
 	display:block;
 }
-.navdropdown:hover .navlink {
+.navdropdown:hover .navlink a {
 	color:#ff8d1a;
 }
 div.navitem {
 	float:left;
 }
-.navitem:hover .navlink {
+.navitem:hover .navlink a {
 	color:#ff8d1a;
 }
 li.ddnavlink {
@@ -120,7 +120,13 @@ p.bannersubtext {
 	margin:0;
 	margin-top:30px;
 }
-
+p.bannersubtextlong {
+	color:white;
+	font-size:20px;
+	padding:0;
+	margin:0;
+	margin-top:30px;
+}
 button.bannerbutton {
 	color:#ff8d1a;
 	background-color:white;
@@ -196,4 +202,64 @@ a.intextlink {
 }
 hr {
 	margin-top:40px;
+}
+/* no banner pages */
+div.maincontent2 {
+	text-align:center;
+}
+div.maincontent2wrap {
+	width:50%;
+	margin-right:auto;
+	margin-left:auto;
+	text-align:left;
+}
+.maincontent2 h1 {
+	text-decoration:underline;
+}
+.maincontent2 p {
+}
+.maincontent2 input {
+	border-radius:3px;
+	border-style:solid;
+	border-width:1px;
+	border-color:#d9d9d9;
+	height:35px;
+	width:400px;
+}
+.maincontent2 textarea {
+	border-radius:3px;
+	border-style:solid;
+	border-width:1px;
+	border-color:#d9d9d9;
+	min-height:200px;
+	min-width:400px;
+}
+button.formbutton {
+	color:#ff8d1a;
+	background-color:white;
+	font-size:16px;
+	border-radius:6px;
+	padding:18px;
+	padding-right:30px;
+	padding-left:30px;
+	border-color:#ff8d1a;
+	border-style:solid;
+	margin-top:30px;
+	font-family: 'Montserrat', sans-serif;
+	cursor:pointer;
+	cursor:hand;
+}
+.formbutton:focus {
+	outline:none;
+}
+
+div.formbuttonwrap{
+	display:inline-block;
+}
+
+.formbuttonwrap:hover .formbutton {
+	color:white;
+	background-color:#ff8d1a;
+	border-width:2px;
+	border-style:solid;
 }
