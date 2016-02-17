@@ -263,3 +263,9 @@ div.formbuttonwrap{
 	border-width:2px;
 	border-style:solid;
 }
+.maincontent2 ul {
+	text-align:left;
+}
+.maincontent2 h2 {
+	text-align:left;
+}
