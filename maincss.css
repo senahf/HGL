@@ -10,6 +10,9 @@ div.navbar {
 	position: fixed;
 	background:white;
 	width:100%;
+	border-bottom-style:solid;
+	border-bottom-color:grey;
+	border-bottom-width:1px;
 }
 div.navleft {
 	float:left;
@@ -58,17 +61,28 @@ li.navlinkpage {
 div.navdropdown {
 	float:left;
 }
+
+
 div.navdropdowncontent {
-    display: none;
+	opacity:0;
+    visibility:hidden;
     position: absolute;
     min-width: 150px;
     top:100%;
     background-color: white;
+    display:block;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
 }
 
 .navdropdown:hover .navdropdowncontent {
-	display:block;
+	opacity:1;
+	visibility:visible;
 }
+
 .navdropdown:hover .navlink a {
 	color:#ff8d1a;
 }
@@ -83,11 +97,21 @@ li.ddnavlink {
 	padding:10px;
 }
 
+
 .ddnavlink a {
 	padding:10px;
 	color:#808080;
 	font-size:15px;
 	text-decoration:none;
+}
+.ddnavlink:hover a {
+	color:#ff8d1a;
+}
+ul.firstddlist {
+	position:absolute;
+	padding:0;
+	margin:0;
+	height:0;
 }
 /* banner */
 
@@ -262,4 +286,13 @@ div.formbuttonwrap{
 	background-color:#ff8d1a;
 	border-width:2px;
 	border-style:solid;
+}
+.maincontent2 ul {
+	text-align:left;
+}
+.maincontent2 h2 {
+	text-align:left;
+}
+.maincontent .largetext {
+
 }
