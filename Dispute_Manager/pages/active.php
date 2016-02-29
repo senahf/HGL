@@ -1,3 +1,9 @@
+<html>
+<head>
+  </head>
+
+  <body>
+
 <!-- Active Disputes -->
 <div class="row">
   <div class="col s12">
@@ -11,3 +17,4 @@
     </div>
   </div>
 </div>
+</body>

@@ -1,3 +1,7 @@
+<html>
+<head>
+  </head>
+  <body>
 <!-- Resolved Disputes -->
 <div class="row">
   <div class="col s12">
@@ -57,3 +61,4 @@ if ($rows_returned < 11) {
     </div>
   </div>
 </div>
+</body>

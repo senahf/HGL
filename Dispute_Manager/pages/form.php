@@ -1,3 +1,7 @@
+<html>
+<head>
+	</head>
+	<body>
 <?php
 require_once 'inc/autoload.php';
 // Register API keys at https://www.google.com/recaptcha/admin
@@ -143,3 +147,4 @@ if ($pending || $_GET['testing']) {
 <?php
 }
 ?>
+</body>
